@@ -31,8 +31,8 @@ author: Takayuki Miyauchi
 ## ローカル環境でのプレビュー
 
 ```
-$ git clone git@github.com:coderdojo-kumano/coderdojo.kumano.io.git
-$ cd coderdojo.kumano.io
+$ git clone git@github.com:coderdojo-kumano/coderdojo-kumano.github.io.git
+$ cd coderdojo-kumano.github.io
 $ bundle install --path vendor/bundle
 $ bundle exec jekyll serve
 ```
