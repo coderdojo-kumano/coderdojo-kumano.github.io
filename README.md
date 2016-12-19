@@ -26,3 +26,13 @@ author: Takayuki Miyauchi
 
 記事はマークダウンフォーマットで書いてください。
 ```
+
+
+## ローカル環境でのプレビュー
+
+```
+$ git clone git@github.com:coderdojo-kumano/coderdojo.kumano.io.git
+$ cd coderdojo.kumano.io
+$ bundle install --path vendor/bundle
+$ bundle exec jekyll serve
+```
