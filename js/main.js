@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
 	$("#testimonial-slider").owlCarousel({
-	    paginationSpeed : 500,      
+	    paginationSpeed : 500,
 	    singleItem:true,
 	    autoPlay: 3000,
 	});
@@ -45,6 +45,13 @@ $(document).ready(function(){
         time: 1000
     });
 
+  var h = $("#slider").outerHeight();
+  $('head').append('<style>#slider::after{ height: ' + h + 'px; }</style>');
+
+  $(window).resize(function(){
+    var h = $("#slider").outerHeight();
+    $('head').append('<style>#slider::after{ height: ' + h + 'px; }</style>');
+  });
 
 });
 
