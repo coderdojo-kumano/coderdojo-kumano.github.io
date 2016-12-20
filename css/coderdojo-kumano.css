@@ -77,6 +77,12 @@
   margin-right: 16px;
 }
 
+header .row
+{
+  margin-left: 0;
+  margin-right: 0;
+}
+
 header
 {
   position: fixed;
