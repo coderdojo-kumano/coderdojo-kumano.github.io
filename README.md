@@ -1,4 +1,6 @@
-# coderdojo.kumano.io
+# CoderDojo Kumano
+
+https://coderdojo-kumano.github.io/
 
 ## 記事の書き方
 
