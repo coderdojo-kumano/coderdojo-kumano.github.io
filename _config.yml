@@ -14,7 +14,7 @@ keep_files:
 
 
 # Site settings
-title: CoderDojo 熊野
+title: "CoderDojo 熊野"
 subtitle: "ボランティアによる子ども向け無料プログラミング教室"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
