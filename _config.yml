@@ -22,8 +22,8 @@ subtitle: "ボランティアによる子ども向け無料プログラミング
 # baseurl: "/" # the subpath of your site
 url: "https://coderdojo-kumano.github.io" # the base hostname & protocol for your site
 baseurl: ""
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+cover: "/img/slider-bg.jpg"
+logo: "/img/logo.png"
 
 # Build settings
 markdown: kramdown
