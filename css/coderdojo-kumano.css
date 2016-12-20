@@ -26,11 +26,20 @@
 #slider
 {
   background: none;
+  text-shadow: 1px 1px 2px #000;
+}
+
+#slider::before,
+#global-header:before
+{
+  background: none;
+  background-color: rgba( 0, 0, 0, 0.6 )
 }
 
 #slider::after {
   background:url('../img/slider-bg.jpg') no-repeat center center;
   background-size: cover;
+  background-position: center center;
   display: block;
   position: fixed;
   top: 0;
