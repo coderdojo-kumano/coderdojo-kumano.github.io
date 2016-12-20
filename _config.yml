@@ -14,13 +14,13 @@ keep_files:
 
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
+title: CoderDojo 熊野
+subtitle: "ボランティアによる子ども向け無料プログラミング教室"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "http://luminousrubyist.github.io" # the base hostname & protocol for your site
+url: "https://coderdojo-kumano.github.io" # the base hostname & protocol for your site
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
@@ -33,8 +33,8 @@ markdown: kramdown
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+  - cat: info
+    desc: "お知らせ"
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: blog
+    desc: "メンターによるブログ"
