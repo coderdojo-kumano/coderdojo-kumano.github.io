@@ -100,80 +100,23 @@ is_top: true
 <!--<section id="testimonial">
   <div class="container">
     <div class="row">
-      <div class="section-title text-center">
-        <h2>Fun Facts About Us</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-md-6">
-        <div class="block">
-          <ul class="counter-box clearfix">
-            <li>
-              <div class="block">
-                <i class="ion-ios-chatboxes-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="ion-ios-glasses-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="ion-ios-compose-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="ion-ios-timer-outline"></i>
-                <h4 class="counter">20000</h4>
-                <span>Cups Of Coffee</span>
-              </div>
-            </li>
-
-          </ul>
-        </div>
+        <h2>ブログ</h2>
+        <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.5em;">
+          {% for post in site.posts limit: 5 %}
+            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
       </div>
       <div class="col-md-6">
         <div class="testimonial-carousel">
           <div id="testimonial-slider" class="owl-carousel">
             <div>
                 <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+                <p>串本町在住のウェブ系のプログラマーです。WordPressという世界最大のシェアを誇るCMSを中心にオープンソース関係の活動や、和歌山県下でオープンデータ関係の活動をしています。</p>
                 <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
-                </div>
-            </div>
-            <div>
-              <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
-                </div>
-            </div>
-            <div>
-              <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
-                </div>
-            </div>
-            <div>
-              <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
+                  <img src="https://s.gravatar.com/avatar/5398e5d45ce27137f0f8e3d54cb1a928?s=80" alt="Pepole">
+                  <p><span>Takayuki Miyauchi</span> プログラマー</p>
                 </div>
             </div>
           </div>
