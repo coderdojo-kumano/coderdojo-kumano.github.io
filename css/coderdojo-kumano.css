@@ -130,3 +130,7 @@ header
     display: none;
   }
 }
+
+iframe {
+    vertical-align: bottom;
+}
